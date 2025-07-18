@@ -14,7 +14,7 @@
       <div
         v-for="item in visibleProducts"
         :key="item.id"
-        class="bg-white w-75  p-4 rounded-lg shadow hover:shadow-md transition"
+        class="bg-white w-75   p-4 rounded-lg shadow hover:shadow-md transition"
       >
         <img src='../assets/denim.jpg'   class="w-50 h-48  rounded mb-4" />
         <h2 class="text-lg font-semibold">{{ item.name }}</h2>

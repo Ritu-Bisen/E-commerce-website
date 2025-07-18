@@ -1,7 +1,7 @@
 <template>
- <div class="bg-[#f4edee] h-100 " > 
- <img class="w-full h-full object-cover md:h-[500px]" src='../assets/homeBanner.jpg'/>
- <div class='absolute  md:top-75 md:ml-20 md:w-150 w-70 top-35 ml-2 items-center flex flex-col'> <p class='text-center text-white md:text-2xl font-bold text-xl '>We deliver top-quality products sourced from trusted and verified suppliers.
+ <div class="bg-[#f4edee] h-full " > 
+ <img class="w-full  object-cover h-150" src='../assets/homeBanner.jpg'/>
+ <div class='absolute  top-75 ml-20 w-150  items-center flex flex-col'> <p class='text-center text-white md:text-2xl font-bold text-xl '>We deliver top-quality products sourced from trusted and verified suppliers.
 Shop with confidence and experience seamless service every time.</p>
  <button class="bg-white mt-5 font-semibold text-black rounded-lg px-4 py-3 hover:bg-[#b65967] hover:text-white"><router-link to="/contact">Contact Us</router-link></button>
 </div>

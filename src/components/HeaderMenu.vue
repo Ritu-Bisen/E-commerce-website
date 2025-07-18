@@ -9,31 +9,33 @@
     >
       <h1 class="text-2xl md:text-3xl">E-Commerce</h1>
 
-      <div class="md:flex gap-10 text-xl hidden">
+      <div class="md:flex gap-10 text-xl ">
         <router-link class="hover:scale-110 transition-all" to="/">Home</router-link>
         <router-link class="hover:scale-110 transition-all" to="/about">About Us</router-link>
         <router-link class="hover:scale-110 transition-all" to="/products">Products</router-link>
         <router-link class="hover:scale-110 transition-all" to="/contact">Contact Us</router-link>
       </div>
 
-      <button @click="toggleMenu" class="md:hidden text-3xl">☰</button>
+      
     </div>
 
-    <!-- Mobile menu -->
-    <transition name="slide">
+    <!-- Mobile menu
+    <button @click="toggleMenu" class="md:hidden text-3xl ">☰</button>
+     <transition name="slide">
       <div
         v-if="isMenuOpen"
         class="fixed top-0 right-0 w-2/3 h-full bg-white p-6 z-40 shadow-lg"
       >
         <button @click="toggleMenu" class="text-right text-3xl mb-4">×</button>
-        <nav class="flex flex-col gap-6 text-lg font-semibold text-pink-600">
+        <nav class="flex flex-col gap-6 text-lg font-semibold text-[#b65967]">
           <router-link @click="toggleMenu" to="/">Home</router-link>
           <router-link @click="toggleMenu" to="/about">About Us</router-link>
           <router-link @click="toggleMenu" to="/products">Products</router-link>
           <router-link @click="toggleMenu" to="/contact">Contact Us</router-link>
         </nav>
       </div>
-    </transition>
+    </transition> -->
+   
 
     <!-- Router Content -->
     <router-view />
