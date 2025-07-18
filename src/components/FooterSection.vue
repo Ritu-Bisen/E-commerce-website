@@ -1,7 +1,7 @@
 <template>
-<div class="bg-[#b65967] md:h-100  w-full p-10 text-[#f4edee] ">
-  <div class=" md:flex justify-between  " >
-  <div class="md:ml-15 mt-5">
+<div class="bg-[#b65967] h-100  w-full p-10 text-[#f4edee] ">
+  <div class=" flex justify-between  " >
+  <div class="ml-15 mt-5">
    <h1 class="text-2xl font-bold ">Customer Services</h1>
    <ul class="font-semibold mt-5 space-y-1 text-[#f4edee] ">
    <li class="hover:scale-102 transition-all ">About Us</li>
@@ -51,7 +51,7 @@
   </div>
   
    </div>
-   <div class="border-b border-[#9b8b8d] md:w-1/2  absolute md:left-1/4 md:mt-7"></div>
+   <div class="border-b border-[#9b8b8d] w-1/2  absolute left-1/4 mt-7"></div>
    </div>
 </template>
 
