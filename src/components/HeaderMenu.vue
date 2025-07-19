@@ -3,13 +3,13 @@
     <!-- Navbar -->
     <div
       :class="[
-        'flex justify-between items-center px-16 py-6  font-bold fixed w-full z-50 transition-all duration-300',
+        ' flex justify-between items-center py-8 px-15 font-bold fixed w-full z-50 transition-all duration-300',
         isScrolled || isNotHome ? 'bg-white text-[#b65967] shadow-lg' : 'text-white'
       ]"
     >
       <h1 class="text-3xl">E-Commerce</h1>
 
-      <div class="flex gap-10 text-xl ">
+      <div class="flex gap-10 text-xl  ">
         <router-link class="hover:scale-110 transition-all" to="/">Home</router-link>
         <router-link class="hover:scale-110 transition-all" to="/about">About Us</router-link>
         <router-link class="hover:scale-110 transition-all" to="/products">Products</router-link>
